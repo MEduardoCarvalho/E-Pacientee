@@ -78,7 +78,7 @@ public class ConsultView {
         // Botão para voltar ao menu principal
         Button voltarBtn = new Button("Voltar");
         voltarBtn.setOnAction(e -> {
-            new MainMenuView(null).start(stage); // Você pode precisar passar o UserService aqui, dependendo da sua lógica
+            new MainMenuView(null).start(stage);
         });
 
         // Botão para sair
